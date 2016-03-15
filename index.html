@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+</head>
+<body ng-init="list = ['one', 'two', 'three']">
+	<ul>
+		<li ng-repeat="item in list">
+			{{item}}
+		</li>
+	</ul>
+</body>
+</html>
